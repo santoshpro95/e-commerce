@@ -11,6 +11,8 @@ import 'package:mecommerce/app/home/widgets/HomeWidget.dart';
 import 'package:mecommerce/app/home/widgets/ProfileWidget.dart';
 import 'package:mecommerce/app/home/widgets/ShopWidget.dart';
 
+import '../../config/ColorsSet.dart';
+
 class HomeScreen extends StatefulWidget {
   static const tag = Routes.homeScreen;
 
@@ -46,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorsSet.whiteTransparent,
+      backgroundColor: AppColors.background,
       body: StreamBuilder<int>(
           stream: _homeBloc.bottomBarStream,
           initialData: 0,
@@ -69,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: (position) =>
                           _homeBloc.onChangeBottomBar(position),
                       type: BottomNavigationBarType.fixed,
-                      selectedItemColor: ColorsSet.primary,
+                      selectedItemColor: AppColors.red,
                       showSelectedLabels: true,
                       unselectedItemColor: Colors.grey,
                       showUnselectedLabels: true,
@@ -79,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.home,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.grey,
+                            color: AppColors.lightGray,
                           ),
                           title: Text(
                             "Home",
@@ -91,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.home,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.primary,
+                            color: AppColors.red,
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -99,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.cart,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.grey,
+                            color: AppColors.lightGray,
                           ),
                           title: Text(
                             "Cart",
@@ -111,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.cart,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.primary,
+                            color: AppColors.red,
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -119,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.bag,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.grey,
+                            color: AppColors.lightGray,
                           ),
                           title: Text(
                             "Shop",
@@ -131,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.bag,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.primary,
+                            color: AppColors.red,
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -139,7 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.favorite,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.grey,
+                            color: AppColors.lightGray,
                           ),
                           title: Text(
                             "Favorite",
@@ -151,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.favorite,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.primary,
+                            color: AppColors.red,
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -159,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.profile,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.grey,
+                            color: AppColors.lightGray,
                           ),
                           title: Text(
                             "Profile",
@@ -171,7 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ImagesSet.profile,
                             height: 24.0,
                             width: 24.0,
-                            color: ColorsSet.primary,
+                            color: AppColors.red,
                           ),
                         ),
                       ],

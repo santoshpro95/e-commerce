@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mecommerce/app/config/Theme.dart';
 import 'package:mecommerce/app/home/ui/HomeScreen.dart';
 import 'package:mecommerce/app/splash/SplashScreen.dart';
 
@@ -12,6 +13,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: OpenFlutterEcommerceTheme.of(context),
       routes: {
         SplashScreen.tag: (context) => SplashScreen(),
         HomeScreen.tag: (context) => HomeScreen()

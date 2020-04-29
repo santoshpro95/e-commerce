@@ -5,11 +5,6 @@ import 'package:mecommerce/app/config/ColorsSet.dart';
 class CommonWidgets{
 
 
-  static Widget bottomBarItem(){
 
-
-
-
-  }
 
 }
