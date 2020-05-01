@@ -4,12 +4,13 @@ import 'package:mecommerce/app/config/ColorsSet.dart';
 import 'package:mecommerce/app/config/ImagesSet.dart';
 import 'package:mecommerce/app/config/Routes.dart';
 import 'package:mecommerce/app/config/StringsSet.dart';
-import 'package:mecommerce/app/home/widgets/CartWidget.dart';
-import 'package:mecommerce/app/home/widgets/FavoriteWidget.dart';
+import 'package:mecommerce/app/home/fragment/CartWidget.dart';
+import 'package:mecommerce/app/home/fragment/FavoriteWidget.dart';
+import 'package:mecommerce/app/home/fragment/homeFragment/HomeWidget.dart';
+import 'package:mecommerce/app/home/fragment/ProfileWidget.dart';
+import 'package:mecommerce/app/home/fragment/ShopWidget.dart';
 import 'package:mecommerce/app/home/bloc/HomeBloc.dart';
-import 'package:mecommerce/app/home/widgets/HomeWidget.dart';
-import 'package:mecommerce/app/home/widgets/ProfileWidget.dart';
-import 'package:mecommerce/app/home/widgets/ShopWidget.dart';
+
 
 import '../../config/ColorsSet.dart';
 

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "title": "sdfsdf",
+    "discount": 12,
+    "name": "sdfgg",
+    "imageUrl": "https://lh3.googleusercontent.com/proxy/14PDR9swydmYWwMF8AezDFvFRCgoH_sS0U159JP9v-bXGGR_lWhs_0a6u9705Hc1WBfSX7ni9LVlnuTmhe0shZakF_OebfH-thZCYBWMBAxTVkPXXu7n4-S0FPEYo42CK7RhfusaGPJbISgdTP9Q9IGE",
+    "oldPrice": 123,
+    "newPrice": 234
+  },
+  {
+    "id": "1",
+    "title": "sdfsdf",
+    "discount": 12,
+    "name": "sdfgg",
+    "imageUrl": "https://lh3.googleusercontent.com/proxy/14PDR9swydmYWwMF8AezDFvFRCgoH_sS0U159JP9v-bXGGR_lWhs_0a6u9705Hc1WBfSX7ni9LVlnuTmhe0shZakF_OebfH-thZCYBWMBAxTVkPXXu7n4-S0FPEYo42CK7RhfusaGPJbISgdTP9Q9IGE",
+    "oldPrice": 123,
+    "newPrice": 234
+  },
+  {
+    "id": "1",
+    "title": "sdfsdf",
+    "discount": 12,
+    "name": "sdfgg",
+    "imageUrl": "https://www.mupkin.shop/image/cache/catalog/Partywear%20%20%20at%203.46.49%20dress-750x750.jpg",
+    "oldPrice": 123,
+    "newPrice": 234
+  },
+  {
+    "id": "1",
+    "title": "sdfsdf",
+    "discount": 12,
+    "name": "sdfgg",
+    "imageUrl": "https://www.mupkin.shop/image/cache/catalog/Partywear%20%20%20at%203.46.49%20dress-750x750.jpg",
+    "oldPrice": 123,
+    "newPrice": 234
+  }
+
+]

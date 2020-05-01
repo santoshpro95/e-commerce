@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		8HdzcTIfK3dkKT6RaIKvEVTV0uk=
+		RYqareHPjkmQmdtUx1ot6XB6Sno=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8T99kKLOMVNsNVQN27sHfSN8w/U=
+		EfrxoI6so4X6hlZMeUxjVoMyqzs=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		c3OFEGN7lnz8zc1hU3vZdlJSRDI=
+		Tg0GVYRYxOUhf/3eFpTyp5yWaTo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -172,6 +172,14 @@
 		<data>
 		RhlkhF7IsynsKPPSNis5bDToYwc=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/fashionProducts.json</key>
+		<data>
+		aKenZyW4B0DefxzSHgYrLnAGa0I=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/newProducts.json</key>
+		<data>
+		8Gliz8u7mw3wCYLzn+AKXnW8BFk=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
@@ -182,7 +190,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		HHYeGfzvmx53W2XSM/g8f7YI2hQ=
+		EGXnKYy2VOvIAmkdTKv8GM2quJg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -194,7 +202,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		AwmUH4qJ6vE2m7fK6XGWgqQVdMg=
+		mDvLX3/D/g+2UNSHMfq5E4ITaw8=
 		</data>
 		<key>Frameworks/Flutter.framework/Info.plist</key>
 		<data>
@@ -541,11 +549,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8HdzcTIfK3dkKT6RaIKvEVTV0uk=
+			RYqareHPjkmQmdtUx1ot6XB6Sno=
 			</data>
 			<key>hash2</key>
 			<data>
-			5AjJqTFREtFWOXYnHJKC731GLReHsPr66Cgo9N2eMac=
+			2zfxOMYxzBFr8FOEdzkSR6UesVd9VUjw883fPjpBCsg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -563,22 +571,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8T99kKLOMVNsNVQN27sHfSN8w/U=
+			EfrxoI6so4X6hlZMeUxjVoMyqzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			b6MXc67WK2oI5iDpGSjBlu+8B/wjAAop84HL8XcsX7Y=
+			WbnqvRgTU9ivyGPJwH82sEur7ff/YGDAdyyKNBhBhzg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c3OFEGN7lnz8zc1hU3vZdlJSRDI=
+			Tg0GVYRYxOUhf/3eFpTyp5yWaTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			IvEC3WpW9MnzrJVi/lUiG4C1TBtsFQlDbHkuJmI8p2k=
+			C80ciFEx+jvxBEESfwM8npZkzuQQY0hb6jfBpZhVGpI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -713,6 +721,28 @@
 			3O9dpFwGvpcjrcYbAAMlnmzWqhwANVBkUQK+/qPNmM4=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/fashionProducts.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aKenZyW4B0DefxzSHgYrLnAGa0I=
+			</data>
+			<key>hash2</key>
+			<data>
+			AKvQ0oZYR1erSCVHEppw+L/GmUfbhtTQq8qHwP3PU/Q=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/newProducts.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8Gliz8u7mw3wCYLzn+AKXnW8BFk=
+			</data>
+			<key>hash2</key>
+			<data>
+			AM4gmj85QvhthHcf5gTQZia6PzeQ++HwZcJrJcJUfUk=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -739,11 +769,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HHYeGfzvmx53W2XSM/g8f7YI2hQ=
+			EGXnKYy2VOvIAmkdTKv8GM2quJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y7/PhOwO/fYPkRmBYU/Ep8TENVgVnt/bUbu4bL572QM=
+			rza/gqkVg6NggT2Gq1LrzpcVxisWc5swMAqRh38G2wg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -772,11 +802,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AwmUH4qJ6vE2m7fK6XGWgqQVdMg=
+			mDvLX3/D/g+2UNSHMfq5E4ITaw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PuLLMvZqnlgACzwAW/xzuVN7HIYyGtiS88VHnj1UiKo=
+			ysQdtq1sEA8NcdL080EKg6jaKU/PBGZKsRvPdRxFc3k=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Info.plist</key>
