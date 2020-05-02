@@ -2,8 +2,10 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mecommerce/app/config/StringsSet.dart';
+import 'package:mecommerce/app/details/DetailsScreen.dart';
 import 'package:mecommerce/app/products/model/DataModel.dart';
 import 'package:mecommerce/app/utils/CommonMethods.dart';
 
@@ -18,6 +20,8 @@ class ProductBloc {
       jsonFile = 'assets/json/fashionProducts.json';
     }else if(productType == StringsSet.newDress){
       jsonFile = 'assets/json/newProducts.json';
+    }else if(productType == StringsSet.favorites){
+      jsonFile = 'assets/json/favorites.json';
     }
 
     List<DataModel> data = await loadFashionData(jsonFile).catchError((err) {
@@ -35,6 +39,20 @@ class ProductBloc {
     return parsed
         .map<DataModel>((json) => new DataModel.fromJson(json))
         .toList();
+  }
+
+  void openDetails(DataModel dataModel, BuildContext context){
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => DetailsScreen(
+          dataModel: dataModel,
+        ),
+      ),
+    );
+
+
   }
 
   void dispose() {

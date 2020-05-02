@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mecommerce/app/config/Theme.dart';
+import 'package:mecommerce/app/details/DetailsScreen.dart';
 import 'package:mecommerce/app/home/ui/HomeScreen.dart';
+import 'package:mecommerce/app/login/LoginScreen.dart';
 import 'package:mecommerce/app/splash/SplashScreen.dart';
 
 class MyApp extends StatefulWidget {
@@ -16,7 +18,9 @@ class _MyAppState extends State<MyApp> {
       theme: OpenFlutterEcommerceTheme.of(context),
       routes: {
         SplashScreen.tag: (context) => SplashScreen(),
-        HomeScreen.tag: (context) => HomeScreen()
+        LoginScreen.tag: (context) => LoginScreen(),
+        HomeScreen.tag: (context) => HomeScreen(),
+        DetailsScreen.tag: (context) => DetailsScreen()
       },
       initialRoute: SplashScreen.tag,
     );
