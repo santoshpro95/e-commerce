@@ -1,4 +1,4 @@
-# mecommerce
+# shopping
 
 A new Flutter application.
 

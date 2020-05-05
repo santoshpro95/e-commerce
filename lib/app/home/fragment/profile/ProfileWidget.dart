@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:mecommerce/app/config/Config.dart';
+import 'package:mecommerce/app/login/LoginScreen.dart';
 
 class ProfileWidget extends StatefulWidget {
   @override
@@ -47,7 +49,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
-                      "Matilda Brown",
+                      Config.loggedInName,
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 16,
@@ -57,7 +59,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       height: 5,
                     ),
                     Text(
-                      "maltidabrown@gmail.com",
+                      Config.loggedInEmail,
                       style: TextStyle(color: Colors.grey),
                     )
                   ],
@@ -291,7 +293,28 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                   ],
                 ),
               ),
+
             ),
+
+        SizedBox(
+          height: 20,
+        ),
+        Container(
+          alignment: Alignment.centerLeft,
+          child: CupertinoButton(
+            padding: EdgeInsets.all(0),
+            onPressed: () {
+              Navigator.pushNamed(context, LoginScreen.tag);
+            },
+            child: Text(
+              "Logout",
+              style: TextStyle(
+                  color: Colors.red,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600),
+            ),
+          ),
+        ),
           ],
         ));
   }

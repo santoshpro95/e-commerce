@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mecommerce/app/home/ui/HomeScreen.dart';
+import 'package:mecommerce/app/login/SignUpScreen.dart';
+import 'package:mecommerce/app/login/LoginBloc.dart';
 import 'package:mecommerce/app/utils/CommonWidgets.dart';
+import 'package:mecommerce/app/utils/CommonMethods.dart';
 
 
 class LoginScreen extends StatefulWidget {
@@ -11,28 +14,29 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  TextEditingController emailText = TextEditingController();
-  TextEditingController passwordText = TextEditingController();
-  final GlobalKey<ScaffoldState> scaffoldKey = new GlobalKey<ScaffoldState>();
+  final _loginBloc = LoginBloc();
 
 
-  void gotoHome(){
-    if(emailText.text == "abc@gmail.com" && passwordText.text == "123"){
-
-      Navigator.pushNamed(context, HomeScreen.tag);
-    }else{
-      CommonWidgets.showErrorMessage(
-          scaffoldKey, "Email or Password is wrong, Please Try Again!");
-    }
-
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
   }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+
 
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: scaffoldKey,
+      backgroundColor: Color(0xffF9F9F9),
+      key: _loginBloc.scaffoldKey,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -46,9 +50,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
       body: Container(
 
-
         margin: EdgeInsets.all(20),
-        child: Column(
+        child: ListView(
           children: <Widget>[
             SizedBox(
               height: 20,
@@ -56,22 +59,26 @@ class _LoginScreenState extends State<LoginScreen> {
 
             TextField(
               style: TextStyle(fontSize: 14),
-              controller: emailText,
+              controller: _loginBloc.emailText,
               decoration: InputDecoration(
                   labelText: "Email",
+                border: new OutlineInputBorder(
+                    borderSide: new BorderSide(color: Colors.green)),
 
               ),
             ),
 
+            SizedBox(height: 20,),
 
 
             TextField(
-              controller: passwordText,
+              controller: _loginBloc.passwordText,
               style: TextStyle(fontSize: 14),
               obscureText: true,
               decoration: InputDecoration(
                 labelText: "Password",
-
+                border: new OutlineInputBorder(
+                    borderSide: new BorderSide(color: Colors.green)),
 
               ),
             ),
@@ -83,37 +90,50 @@ class _LoginScreenState extends State<LoginScreen> {
 
             CupertinoButton(
               padding: EdgeInsets.all(0),
-              onPressed: gotoHome,
+              onPressed: ()=> _loginBloc.login(context),
               child: Container(
-                height: 40,
+                height: 50,
                 width: double.maxFinite,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                    borderRadius: BorderRadius.all(Radius.circular(40)),
                     color: Colors.red
                 ),
                 child: Text("LOGIN", style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w400),),
               ),
             ),
 
-
-            Expanded(
-              child: Container(),
+            SizedBox(height: 20,),
+            CupertinoButton(
+              padding: EdgeInsets.all(0),
+              onPressed:()=>  _loginBloc.signUp(context),
+              child: Container(
+                height: 50,
+                width: double.maxFinite,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(40)),
+                    border: Border.all(width: 1, color: Colors.red)
+                ),
+                child: Text("SIGNUP", style: TextStyle(color: Colors.red, fontSize: 14, fontWeight: FontWeight.w400),),
+              ),
             ),
 
-
-            Text("Or login with social account"),
+            SizedBox(height: 60,),
+            Center(child: Text("Or login with social account")),
             SizedBox(height: 20,),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisSize: MainAxisSize.min,
-              children: <Widget>[
+            Center(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
 
-                Image.network('https://www.konfest.com/wp-content/uploads/2019/05/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-icon-google-website-search-engine-information-company-logo-17.png', height: 40, width: 40,),
+                  Image.network('https://www.konfest.com/wp-content/uploads/2019/05/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-icon-google-website-search-engine-information-company-logo-17.png', height: 40, width: 40,),
 
-                SizedBox(width: 20,),
-                Image.network('https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png', height: 30, width: 30,),
-              ],
+                  SizedBox(width: 20,),
+                  Image.network('https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png', height: 30, width: 30,),
+                ],
+              ),
             )
 
 

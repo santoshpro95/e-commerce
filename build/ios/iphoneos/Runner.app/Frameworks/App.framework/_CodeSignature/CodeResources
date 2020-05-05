@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		qVggIPOXnzEDWLv8KeWP5uxHUmo=
+		2s5zCHu7/mFDI64IgRCSzpOSqZQ=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/LICENSE</key>
 		<data>
-		Ef/s7Mi2Z+IU8vVsNG2lAN7imr4=
+		W+2kxVW/fB4zpfeFAFpT33dgnts=
 		</data>
 		<key>flutter_assets/assets/images/bottom_menu/bag.svg</key>
 		<data>
@@ -48,18 +48,6 @@
 		<data>
 		sr/i5tHKxaLZn9kAdx+SixjRNw8=
 		</data>
-		<key>flutter_assets/assets/images/product/product1.png</key>
-		<data>
-		K9LKDcXMBXZXGoM+z0ZzldXBh4Y=
-		</data>
-		<key>flutter_assets/assets/images/product/product2.png</key>
-		<data>
-		tNsHx+Gps5lKNjK/icCr42evVxc=
-		</data>
-		<key>flutter_assets/assets/images/product/product3.png</key>
-		<data>
-		RhlkhF7IsynsKPPSNis5bDToYwc=
-		</data>
 		<key>flutter_assets/assets/json/fashionProducts.json</key>
 		<data>
 		aKenZyW4B0DefxzSHgYrLnAGa0I=
@@ -76,9 +64,21 @@
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
 		</data>
+		<key>flutter_assets/isolate_snapshot_data</key>
+		<data>
+		6Q7gJUs/xoGfGSssJQF4HSQt+tg=
+		</data>
+		<key>flutter_assets/kernel_blob.bin</key>
+		<data>
+		v4R+qUJGJnOX8HfBC9O+CH9+O9M=
+		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		TdRNbRcrlXQQgeiweLFizPmk92g=
+		</data>
+		<key>flutter_assets/vm_snapshot_data</key>
+		<data>
+		9/Sg3xz36iaqQAEPm7T0k2zXcgk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qVggIPOXnzEDWLv8KeWP5uxHUmo=
+			2s5zCHu7/mFDI64IgRCSzpOSqZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TbcRso3hqEr+gARYrxCLY/OuCxCkmcKo49pVcNRH+UY=
+			6eQI3aFxcuH7WpQDi4CxXz20gQJ4i1KKtPtDxS1D1HE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ef/s7Mi2Z+IU8vVsNG2lAN7imr4=
+			W+2kxVW/fB4zpfeFAFpT33dgnts=
 			</data>
 			<key>hash2</key>
 			<data>
-			uBmcQVfsCpreU2ibmtoZ7n9paVEvGYFESiy/DCOsyX8=
+			DFFyy5Ve/X4+37GIftD6JindAhS0AOKMeakd9RsR/NE=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/bottom_menu/bag.svg</key>
@@ -193,39 +193,6 @@
 			eBuCpS07XkI7tR9ffy2Ao0d0HXJDRz+301V0DbGWEsQ=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/product/product1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K9LKDcXMBXZXGoM+z0ZzldXBh4Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			n4l87d5nTfJcnQzB7wYCHzun840DFvKHrFWBwpm4s/c=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/images/product/product2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tNsHx+Gps5lKNjK/icCr42evVxc=
-			</data>
-			<key>hash2</key>
-			<data>
-			It7H9mJEQqhR+XBx/4af+3UDoRg1S/n03oHKQLvtKzE=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/images/product/product3.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RhlkhF7IsynsKPPSNis5bDToYwc=
-			</data>
-			<key>hash2</key>
-			<data>
-			3O9dpFwGvpcjrcYbAAMlnmzWqhwANVBkUQK+/qPNmM4=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/json/fashionProducts.json</key>
 		<dict>
 			<key>hash</key>
@@ -270,6 +237,28 @@
 			Wuh7JiGdsCj8cMnXMpa8jtW4ekzRz359zPE0NyQ7iRE=
 			</data>
 		</dict>
+		<key>flutter_assets/isolate_snapshot_data</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6Q7gJUs/xoGfGSssJQF4HSQt+tg=
+			</data>
+			<key>hash2</key>
+			<data>
+			h6j2w4UCVTMupMkHzYN0Y6PvYOJbFAVOfvWo7xh8mC8=
+			</data>
+		</dict>
+		<key>flutter_assets/kernel_blob.bin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v4R+qUJGJnOX8HfBC9O+CH9+O9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			XaC/KwDcnW06NLD1r3Ww8UU0HocLWM9mZvpsGqXav4M=
+			</data>
+		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -279,6 +268,17 @@
 			<key>hash2</key>
 			<data>
 			d6fK2iHuml40zu1xSV3HnoE9PVFhQREGOzVfduySSBY=
+			</data>
+		</dict>
+		<key>flutter_assets/vm_snapshot_data</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9/Sg3xz36iaqQAEPm7T0k2zXcgk=
+			</data>
+			<key>hash2</key>
+			<data>
+			D6DyCLPkZxFO4v3Insr+wJXtdDwBQpE12Cia0eqJyuQ=
 			</data>
 		</dict>
 	</dict>

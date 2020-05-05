@@ -1,4 +1,8 @@
 import 'dart:async';
+import 'dart:convert';
+
+import 'package:mecommerce/app/products/model/DataModel.dart';
+import 'package:mecommerce/app/utils/CommonMethods.dart';
 
 class HomeBloc{
 
@@ -8,9 +12,11 @@ class HomeBloc{
 
 
 
+
   void onChangeBottomBar(int position){
     _bottomBarController.sink.add(position);
   }
+
 
 
   void dispose(){

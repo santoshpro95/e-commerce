@@ -11,7 +11,8 @@ class _CartWidgetState extends State<CartWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20),
+      color: Color(0xffF9F9F9),
+      padding: EdgeInsets.all(20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -59,7 +60,7 @@ class _CartWidgetState extends State<CartWidget> {
                         Expanded(
                           flex:1,
                           child: Container(
-                            height: 80,
+                            height: 95,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(10),
@@ -72,15 +73,16 @@ class _CartWidgetState extends State<CartWidget> {
                             ),
                           ),
                         ),
-                        SizedBox(width: 10,),
                         Expanded(
                           flex:3,
                           child: Container(
+                            padding: EdgeInsets.only(left: 10,right: 10, top: 10),
                             alignment: Alignment.center,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(10),
-                                    bottomLeft: Radius.circular(10)),
+                                    topRight: Radius.circular(10),
+                                    bottomRight: Radius.circular(10)),
+
                                 color: Colors.white),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -92,57 +94,61 @@ class _CartWidgetState extends State<CartWidget> {
 
                               SizedBox(height: 10,),
 
-                              Row(
-                                children: <Widget>[
+                              Container(
+                                margin: EdgeInsets.only(bottom: 10),
+                                child: Row(
+                                  children: <Widget>[
 
-                                  Container(
-                                    alignment: Alignment.center,
-                                    height:35, width: 35,
-                                    decoration: BoxDecoration(borderRadius:
-                                    BorderRadius.all(Radius.circular(30)),
-                                    color: Colors.white,
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height:35, width: 35,
+                                      decoration: BoxDecoration(borderRadius:
+                                      BorderRadius.all(Radius.circular(30)),
+                                      color: Colors.white,
 
 
-                                        boxShadow: [BoxShadow(
-                                          color: Colors.grey,
-                                          blurRadius: 5.0,
-                                        ),]
+                                          boxShadow: [BoxShadow(
+                                            color: Colors.grey,
+                                            blurRadius: 5.0,
+                                          ),]
+                                      ),
+                                      child: Text("-", style: TextStyle(fontSize: 18, color: Colors.black,),),
                                     ),
-                                    child: Text("-", style: TextStyle(fontSize: 18, color: Colors.black,),),
-                                  ),
 
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text("2",style: TextStyle(fontSize: 18, color: Colors.black,)),
-                                  ),
-
-                                  Container(
-                                    alignment: Alignment.center,
-                                    height:35, width: 35,
-                                    decoration: BoxDecoration(borderRadius:
-                                    BorderRadius.all(Radius.circular(30)),
-                                        color: Colors.white,
-                                        boxShadow: [BoxShadow(
-                                          color: Colors.grey,
-                                          blurRadius: 5.0,
-                                        ),]
+                                    Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Text("2",style: TextStyle(fontSize: 18, color: Colors.black,)),
                                     ),
-                                    child: Text("+", style: TextStyle(fontSize: 18, color: Colors.black,),),
-                                  ),
+
+                                    Container(
+
+                                      alignment: Alignment.center,
+                                      height:35, width: 35,
+                                      decoration: BoxDecoration(borderRadius:
+                                      BorderRadius.all(Radius.circular(30)),
+                                          color: Colors.white,
+                                          boxShadow: [BoxShadow(
+                                            color: Colors.grey,
+                                            blurRadius: 5.0,
+                                          ),]
+                                      ),
+                                      child: Text("+", style: TextStyle(fontSize: 18, color: Colors.black,),),
+                                    ),
 
 
-                                  Expanded(child: Container(child: Text("123/-",
+                                    Expanded(child: Container(child: Text("123/-",
 
-                                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.black),
-                                  ),
-
-
-                                  alignment: Alignment.centerRight,
-                                  ))
+                                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.black),
+                                    ),
 
 
+                                    alignment: Alignment.centerRight,
+                                    ))
 
-                                ],
+
+
+                                  ],
+                                ),
                               ),
 
 
@@ -176,6 +182,8 @@ class _CartWidgetState extends State<CartWidget> {
 //              ),
 //            ),
 //          ),
+        
+
           SizedBox(
             height: 10,
           ),

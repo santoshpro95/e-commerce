@@ -11,8 +11,6 @@ import 'package:mecommerce/app/home/fragment/profile/ProfileWidget.dart';
 import 'package:mecommerce/app/home/fragment/shop/ShopWidget.dart';
 import 'package:mecommerce/app/home/bloc/HomeBloc.dart';
 import 'package:mecommerce/app/products/ProductsScreen.dart';
-
-
 import '../../config/ColorsSet.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -35,9 +33,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-
-
-
     super.initState();
   }
 

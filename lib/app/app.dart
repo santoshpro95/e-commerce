@@ -3,6 +3,7 @@ import 'package:mecommerce/app/config/Theme.dart';
 import 'package:mecommerce/app/details/DetailsScreen.dart';
 import 'package:mecommerce/app/home/ui/HomeScreen.dart';
 import 'package:mecommerce/app/login/LoginScreen.dart';
+import 'package:mecommerce/app/login/SignUpScreen.dart';
 import 'package:mecommerce/app/splash/SplashScreen.dart';
 
 class MyApp extends StatefulWidget {
@@ -19,6 +20,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         SplashScreen.tag: (context) => SplashScreen(),
         LoginScreen.tag: (context) => LoginScreen(),
+        SignUpScreen.tag: (context) => SignUpScreen(),
         HomeScreen.tag: (context) => HomeScreen(),
         DetailsScreen.tag: (context) => DetailsScreen()
       },
